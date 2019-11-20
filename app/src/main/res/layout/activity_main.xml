@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        style="@style/view"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdSpider"
+            style="@style/imageView"
+            android:text="Spider Man"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rdIron"
+            style="@style/imageView"
+            android:text="Iron Man"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rdJoker"
+            style="@style/imageView"
+            android:text="Joker"></RadioButton>
+
+    </RadioGroup>
+
+        <ImageView
+            android:id="@+id/img"
+            style="@style/view"></ImageView>
+
+
+
+
+
+</LinearLayout>
